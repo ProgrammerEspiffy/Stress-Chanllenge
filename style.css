@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #F8F9FA;
+    font-size: 34px;
+    font-family: 'Inter', sans-serif;
+    width: 1200px;
+    margin: auto;
+}
+main{
+    width: 1200px;
+    margin: auto;
+}
+h3{
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+}
+#NDP{
+    width: 589px;
+    height: 38px;
+    border-radius: 4px;
+}
+#Data{
+    width: 293px;
+    height: 38px;
+    border-radius: 4px;
+}
+textarea{
+    width: 555px;
+    height: 161px;
+    border-radius: 4px;
+}
+.Todo{
+    display: flex;
+}
+.Texto{
+    font-size: 23px;
+}
+.unicus{
+    display: flex;
+    justify-content: space-around;
+}
+#SUBMIT{
+    display: flex;
+    justify-content: center;
+}
+#Butao{
+    background-color: #8458FF;
+    width: 109px;
+    height: 39px;
+}
+p{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+#edit{
+    width: 78px;
+    height: 39px;
+    border-radius: 4px;
+    background-color: #FFC107;
+    color: white;
+}
+#delete{
+    width: 85px;
+    height: 39px;
+    border-radius: 4px;
+    background-color: #DC3545;
+    color: white;
+}
+.Secao{
+    border: solid 4px black;
+    border-radius: 1px;
+    margin-top: 3px;
+}
+footer{
+    background-color: #f6511d;
+    width: 1200px;
+    margin: auto;
+    margin-top: 3px;
+    display: flex;
+}
+#SyncTur{
+    margin-left: 30px;
+    margin-right: 300px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+#Contato{
+    color: white;
+    margin-right: 30px;
+}
+hr{
+    margin-right: 300px;
+}
+

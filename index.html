@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synctur</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script>var exports = {};</script>
+    <script src="Código.js" async></script>
+</head>
+
+<body>
+    <header>
+        <h1>Synctur</h1>
+    </header>
+
+    <main>
+        <h2>Cadastrar Pacotes</h2>
+        <div class="Todo">
+            <div class="Esquerda">
+                <div>
+                    
+                    <br>
+                    <!-- Nome do Pacote -->
+                    <h3>Pacote</h3>
+                    <br>
+                    <input type="text" id="NDP" placeholder="Digite nome completo">
+
+                </div>
+
+                <!-- Status do Pacote -->
+                <div class="unicus">
+                    <div>
+                    <h3>Status do Pacote</h3>
+
+                    <input type="radio" name="Atividade" id="Ativo" value="Ativo">
+                    <label for="Ativo" class="Texto">Ativo</label>
+                    <input type="radio" name="Atividade" id="Inativo" value="Inativo">
+                    <label for="Inativo" class="Texto">Inativo</label>
+                    </div>
+
+                    <!-- Data -->
+
+                    <div>
+                        <h3>Data da Viagem</h3>
+
+                        <input type="datetime" name="Data" id="Data">
+                    </div>
+                </div>
+            </div>
+            <!-- Descrição -->
+            <div class="Direita">
+                <div>
+                    <h3>Descrição</h3>
+
+                    <textarea id="Dezcricao"></textarea>
+                </div>
+            </div>
+            <!-- Confirmar -->
+        </div>
+        <div id="SUBMIT">
+        <button type="button" id="Butao" onclick="cadastrar()">Cadastrar</button>
+        </div>
+        
+        <div id="Card"></div>
+
+
+
+    </main>
+
+    <!-- Créditos -->
+    <footer>
+        <h2 id="SyncTur">Synctur</h2>
+        
+        <hr>
+        <p id="Contato">
+            Company Inc., 8901 Marmora Road, Glasgow, D04 89GR
+            <br>
+            Call us now toll free: (800)2345-6789
+            <br>
+            Customer support: support@demolink.org
+            <br>
+            Skype: sample-username
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
