@@ -47,6 +47,7 @@ textarea{
 #SUBMIT{
     display: flex;
     justify-content: center;
+    color: white;
 }
 #Butao{
     background-color: #8458FF;
